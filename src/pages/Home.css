@@ -1,0 +1,94 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container{   
+    width: 100%;
+    height: 94vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;   
+     background-color:#03045e;
+    overflow-y: hidden;
+}
+.home-container .home-row{
+    width: 95%;
+    height:85vh;    
+    border-radius: 10px;
+    border:5px solid rgba(204, 204, 204, 0.103);
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.home-container .home-row .top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:50%;   
+}
+.home-container .home-row .top .left{
+    width:50%;
+    height:100%;
+    background-color: #caf0f8;
+    background-image: url('./images/1.jpg');
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-blend-mode:multiply;
+}
+.home-container .home-row .top .right{
+    width:50%;
+    height:100%;
+    background-color:#0077b6;
+    background-image: url('./images/2.jpg');
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-blend-mode:multiply;
+}
+.home-container .home-row .bottom{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:100%;
+    height:50%;  
+    padding: 10px 20px; 
+    text-align: center;
+    background-image: url('./images/5.jpg');
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-blend-mode:multiply;
+    background-color: #041d22;
+    color: #fff;   
+} 
+.home-container .home-row .bottom h1{
+    margin-bottom: 1rem;
+    font-size: calc(24px + 2vw);  
+}
+.home-container .home-row .bottom p{
+    width: 70%;   
+  
+    font-size: 18px;
+}
+.home-container .home-row .bottom button{
+    padding: 0.6rem 7rem;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #fff;
+    color:#000;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:800px){
+    .home-container .home-row .bottom p{
+        width:100%;
+    }
+}

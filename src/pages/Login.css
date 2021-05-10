@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.log-container{
+    min-height: 90vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.log-container .log-row{
+    width: 100%;
+    height:50vh;
+    background-color: red;
+}
